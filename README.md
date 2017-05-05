@@ -37,3 +37,7 @@ npm install -g bower
 -> bower install --save bootstrap
 -> add this line in gitignore :
   /web/assets/vendor/
+->add to base.html.twig :
+      <link rel="stylesheet" href="{{ asset('assets/vendor/bootstrap/dist/css/bootstrap.css') }}"/>
+      <script src="{{ asset('assets/vendor/jquery/dist/jquery.js') }}"></script>
+      <script src="{{ asset('assets/vendor/bootstrap/dist/js/bootstrap.js') }}"></script>
