@@ -24,3 +24,16 @@ php bin/console doctrine:schema:validate
 
 Database update :
 php bin/console doctrine:schema:update --force
+
+****************
+BOWER + BOOTSTRAP
+
+npm install -g bower
+->Create file .bowerrc
+-> File .bowerrc :
+  {
+    "directory": "web/assets/vendor/"
+  }
+-> bower install --save bootstrap
+-> add this line in gitignore :
+  /web/assets/vendor/

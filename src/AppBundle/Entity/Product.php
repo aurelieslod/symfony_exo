@@ -5,12 +5,12 @@ namespace AppBundle\Entity;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * Products
+ * Product
  *
- * @ORM\Table(name="products")
- * @ORM\Entity(repositoryClass="AppBundle\Repository\ProductsRepository")
+ * @ORM\Table(name="product")
+ * @ORM\Entity(repositoryClass="AppBundle\Repository\ProductRepository")
  */
-class Products
+class Product
 {
     /**
      * @var int
@@ -24,7 +24,7 @@ class Products
     /**
      * @var string
      *
-     * @ORM\Column(name="reference", type="string", length=255, unique=true)
+     * @ORM\Column(name="reference", type="string", length=255)
      */
     private $reference;
 
@@ -51,7 +51,7 @@ class Products
      *
      * @param string $reference
      *
-     * @return Products
+     * @return Product
      */
     public function setReference($reference)
     {
@@ -75,7 +75,7 @@ class Products
      *
      * @param float $price
      *
-     * @return Products
+     * @return Product
      */
     public function setPrice($price)
     {

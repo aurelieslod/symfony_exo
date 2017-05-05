@@ -1,0 +1,21 @@
+{
+  "name": "symfony_exo",
+  "homepage": "https://github.com/aurelieslod/symfony_exo",
+  "authors": [
+    "aurelieslod <aurelie.slod@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "web/assets/vendor/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
